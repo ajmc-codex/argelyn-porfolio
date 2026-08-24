@@ -1,5 +1,5 @@
 body{
-    background-color: orange;
+    background-color: rgb(0, 0, 0);
 }
 
 html, body{
@@ -9,6 +9,6 @@ html, body{
 
 header{
     text-align: center;
-    background-color: rgb(13, 224, 213);
+    background-color: rgb(109, 121, 0);
     padding: 20px;
 }
