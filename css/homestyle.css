@@ -15,11 +15,17 @@ header{
     padding: 20px;
 }
 
-header img{
-    WIDTH: 300PX;
-    HEIGHT: 300PX;
-    BORDER: 15PX SOLID #1f1803;
-    BORDER-RADIUS: 50%;
+header .pfp{
+    width: 300px;
+    height: 300px;
+    border: 15px solid #1f1803;
+    border-radius: 50%;
+    background-image: url(./../img/argelyn.png);
+    background-repeat: no-repeat;
+    background-position: -120px -230px;
+    background-size: cover;
+    background-size: 200%;
+    margin: 0 auto;
 }
 
 header h1{
