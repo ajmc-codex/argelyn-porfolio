@@ -12,3 +12,10 @@ header{
     background-color: rgb(109, 121, 0);
     padding: 20px;
 }
+
+header img{
+    WIDTH: 300PX;
+    HEIGHT: 300PX;
+    BORDER: 20PX SOLID #d5c2a0;
+    BORDER-RADIUS: 50%;
+}
