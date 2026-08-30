@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #fbffed;
 }
 
 html, body{
@@ -11,14 +11,14 @@ html, body{
 
 header{
     text-align: center;
-    background-color: #fbffed;
+    background-color: #181202;
     padding: 20px;
 }
 
 header .pfp{
     width: 300px;
     height: 300px;
-    border: 15px solid #1f1803;
+    border: 13px solid #fbffed;
     border-radius: 50%;
     background-image: url(./../img/argelyn.png);
     background-repeat: no-repeat;
@@ -34,5 +34,62 @@ header h1{
     font-style: normal;
     FONT-SIZE: 50PX;
     MARGIN: 10PX 0 20PX 0;
-    COLOR: #1f1803;
+    COLOR: #fbffed;
+}
+
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main img{
+    width: 100%;
+}
+
+h1{
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    FONT-SIZE: 40PX;
+    margin: 40px 0 20px 0;
+    COLOR: #a14100;
+}
+
+h2{
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    FONT-SIZE: 30PX;
+    MARGIN: 10PX 0 20PX 0;
+    COLOR: #181202;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 20PX;
+    LINE-HEIGHT: 30PX;
+}
+
+p, ul, ol{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a, a:visited{
+    color: #00709c;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #a14100;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #8d005e;
 }
