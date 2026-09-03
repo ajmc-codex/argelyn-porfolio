@@ -129,3 +129,92 @@ a:active{
     height: auto;
     display: block;
 }
+
+/* =========================
+   FEEDBACKS
+========================= */
+
+.experience-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+
+    align-items: start;
+
+}
+
+
+/* EXPERIENCE IMAGE */
+
+.experience-image {
+
+    width: 100%;
+
+}
+
+.experience-image img {
+
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+}
+
+/* =========================
+   SKILLS & EXPERTISE
+========================= */
+
+.skills-expertise {
+    width: 100%;
+}
+
+
+/* MAIN HEADING */
+
+.skills-expertise > h1 {
+    text-align: left;
+    margin: 50px 0 30px 0;
+}
+
+
+/* TWO COLUMN LAYOUT */
+
+.skills-expertise-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 80px;
+
+    align-items: start;
+}
+
+
+/* COLUMN HEADINGS */
+
+.video-editing-text h2,
+.graphics-design-text h2 {
+    margin: 0 0 20px 0;
+}
+
+
+/* LIST */
+
+.video-editing-text ul,
+.graphics-design-text ul {
+    margin: 0;
+    padding-left: 25px;
+}
+
+
+/* LIST ITEMS */
+
+.video-editing-text li,
+.graphics-design-text li {
+    margin-bottom: 8px;
+}
