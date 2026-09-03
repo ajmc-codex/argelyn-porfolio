@@ -38,7 +38,7 @@ header h1{
 }
 
 main{
-    width: 1200px;
+    width: 1500px;
     margin: 0 auto;
 }
 
@@ -93,12 +93,39 @@ a:hover{
 a:active{
     color: #8d005e;
 }
+/* =========================
+   WORK EXPERIENCE
+========================= */
 
-.experience-text p{
-    font-size: 20px;
-    line-height: 10px;
+.experience-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1.5fr;
+    gap: 20px 30px;
+    align-items: center;
 }
 
-.experience-img img{
+
+/* LEFT TEXT */
+
+.experience-text {
+    text-align: left;
+}
+
+.experience-text p {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* EXPERIENCE IMAGE */
+
+.experience-image {
     width: 100%;
+}
+
+.experience-image img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
