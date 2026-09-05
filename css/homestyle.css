@@ -123,7 +123,7 @@ ul{
    FEEDBACKS
 ========================= */
 
-.experience-grid {
+.feedback-grid {
 
     display: grid;
 
@@ -136,15 +136,15 @@ ul{
 }
 
 
-/* EXPERIENCE IMAGE */
+/* FEEDBACK IMAGE */
 
-.experience-image {
+.feedback-image {
 
     width: 100%;
 
 }
 
-.experience-image img {
+.feedback-image img {
 
     width: 100%;
 
