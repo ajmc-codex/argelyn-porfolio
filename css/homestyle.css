@@ -33,7 +33,7 @@ header h1{
     font-weight: 400;
     font-style: normal;
     FONT-SIZE: 50PX;
-    MARGIN: 10PX 0 20PX 0;
+    MARGIN: 20PX 0 20PX 0;
     COLOR: #fbffed;
 }
 
@@ -50,8 +50,9 @@ h1{
     font-family: "Fascinate Inline", system-ui;
     font-weight: 400;
     font-style: normal;
+    TEXT-ALIGN: center;
     FONT-SIZE: 40PX;
-    margin: 40px 0 20px 0;
+    margin: 50px 0 25px 0;
     COLOR: #a14100;
 }
 
@@ -60,7 +61,7 @@ h2{
     font-weight: 400;
     font-style: normal;
     FONT-SIZE: 30PX;
-    MARGIN: 10PX 0 20PX 0;
+    MARGIN: 5PX 0 20PX 0;
     COLOR: #181202;
 }
 
@@ -78,21 +79,9 @@ p, ul, ol{
 ul{
     list-style-type: disc;
     padding-left: 20px;
+    text-align: left;
 }
 
-a, a:visited{
-    color: #00709c;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #a14100;
-    text-decoration: underline;
-}
-
-a:active{
-    color: #8d005e;
-}
 /* =========================
    WORK EXPERIENCE
 ========================= */
@@ -165,56 +154,103 @@ a:active{
 
 }
 
-/* =========================
+/* ================================
    SKILLS & EXPERTISE
-========================= */
-
+================================ */
 .skills-expertise {
     width: 100%;
 }
 
-
-/* MAIN HEADING */
-
-.skills-expertise > h1 {
-    text-align: left;
-    margin: 50px 0 30px 0;
-}
-
-
-/* TWO COLUMN LAYOUT */
-
+/* ================================
+   TWO COLUMNS
+================================ */
 .skills-expertise-grid {
+    width: 100%;
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
-    gap: 80px;
-
+    column-gap: 100px;
     align-items: start;
 }
 
-
-/* COLUMN HEADINGS */
-
-.video-editing-text h2,
-.graphics-design-text h2 {
-    margin: 0 0 20px 0;
+/* ================================
+   VIDEO EDITING
+================================ */
+.video-editing-text {
+    justify-self: center;
 }
 
+.video-editing-text h2 {
+    text-align: left;
+    margin: 0 0 15px;
+}
 
-/* LIST */
+.video-editing-text ul {
+    margin: 0;
+    padding-left: 22px;
+}
 
-.video-editing-text ul,
+/* ================================
+   GRAPHIC DESIGN
+================================ */
+.graphics-design-text {
+    justify-self: center;
+}
+
+.graphics-design-text h2 {
+    text-align: left;
+    margin: 0 0 15px;
+}
+
 .graphics-design-text ul {
     margin: 0;
-    padding-left: 25px;
+    padding-left: 22px;
 }
 
+/* ================================
+   LIST ITEMS
+================================ */
+.skills-expertise li {
+    margin-bottom: 5px;
+}
 
-/* LIST ITEMS */
+/* ================================
+   PAST PROJECTS
+================================ */
+.past-projects h1 {
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
 
-.video-editing-text li,
-.graphics-design-text li {
-    margin-bottom: 8px;
+/* BUTTON STYLING */
+.past-projects-wrapper button {
+    background-color: #048197;
+    border-radius: 20px;
+    padding: 15px 0px 15px 0px;
+    margin: 10px 0px 10px 10px;
+    width: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-self: center;
+}
+
+a, a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffae00;
+    text-decoration: none;
+}
+
+a:active{
+    color: #8d005e;
+}
+
+/* two column layout for past projects */
+.past-projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
 }
