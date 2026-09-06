@@ -254,3 +254,28 @@ a:active{
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
 }
+
+.footer-content {
+    background-color: #d49c00;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content a {
+    color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer-content a:hover {
+    color: #00547a;
+}
+
+.footer-content a:active {
+    color: #a14100;
+}
+
+.footer-content a:visited {
+    color: #4a4c4d;
+}
