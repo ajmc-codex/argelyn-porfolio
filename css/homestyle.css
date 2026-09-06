@@ -124,34 +124,50 @@ ul{
 ========================= */
 
 .feedback-grid {
-
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
-
     gap: 20px;
-
     align-items: start;
 
 }
 
+.upwork-profile {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.upwork-profile button {
+    background-color: #048197;
+    border-radius: 20px;
+    padding: 15px 0px 15px 0px;
+    margin: 0 auto;
+    width: 20%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.upwork-profile button:hover {
+    background-color: #a14100;
+    color: #ffffff;
+}
+
+.upwork-profile a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
 
 /* FEEDBACK IMAGE */
 
 .feedback-image {
-
     width: 100%;
-
 }
 
 .feedback-image img {
-
     width: 100%;
-
     height: auto;
-
     display: block;
-
 }
 
 /* ================================
@@ -255,11 +271,25 @@ a:active{
     column-gap: 40px;
 }
 
+/*CONTACT INFO*/
+.contact-info {
+    text-align: center;
+    padding: 0px 0 60px 0;
+}
+
+.contact-info a {
+    color: #00547a;
+    text-decoration: underline;
+}
+
+/* ================================
+   FOOTER
+================================ */
 .footer-content {
     background-color: #d49c00;
     color: #000000;
     text-align: center;
-    padding: 20px;
+    padding: 30px 0 30px 0;
 }
 
 .footer-content a {
