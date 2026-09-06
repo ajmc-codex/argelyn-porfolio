@@ -154,6 +154,16 @@ ul{
     color: #ffffff;
 }
 
+.upwork-profile button:active {
+    background-color: #a14100;
+    color: #ffffff;
+}
+
+.upwork-profile button:visited {
+    background-color: #676867;
+    color: #ffffff;
+}
+
 .upwork-profile a {
     color: #ffffff;
     text-decoration: none;
