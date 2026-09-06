@@ -142,20 +142,25 @@ ul{
     border-radius: 20px;
     padding: 15px 0px 15px 0px;
     margin: 0 auto;
-    width: 20%;
+    width: 23%;
     font-size: 20px;
     cursor: pointer;
     transition: background-color 0.5s ease;
 }
 
 .upwork-profile button:hover {
-    background-color: #a14100;
+    background-color: #108a00;
     color: #ffffff;
+}
+
+.upwork-profile a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .upwork-profile a:hover {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* FEEDBACK IMAGE */
@@ -238,7 +243,7 @@ ul{
 }
 
 /* BUTTON STYLING */
-.past-projects-wrapper button {
+.past-projects-grid button {
     background-color: #048197;
     border-radius: 20px;
     padding: 15px 0px 15px 0px;
@@ -250,18 +255,20 @@ ul{
     justify-self: center;
 }
 
-a, a:visited{
+.past-projects-grid a {
     color: #ffffff;
     text-decoration: none;
 }
 
-a:hover{
-    color: #ffae00;
-    text-decoration: none;
+.past-projects-grid button:hover {
+    background-color: #a14100;
+    text-decoration: underline;
+    color: #ffffff;
 }
 
-a:active{
-    color: #000000;
+.past-projects-grid a:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* two column layout for past projects */
