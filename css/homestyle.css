@@ -126,6 +126,7 @@ ul{
 @media (max-width: 1080px) {
     .experience-grid {
         grid-template-columns: 1fr;
+        gap: 10px 30px;
     }
 }
 
