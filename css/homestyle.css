@@ -33,17 +33,30 @@ header h1{
     font-weight: 400;
     font-style: normal;
     FONT-SIZE: 50PX;
+    line-height: 100%;
     MARGIN: 20PX 0 20PX 0;
     COLOR: #fbffed;
 }
 
+@media (max-width: 1000px) {
+    header .pfp{
+        width: 200px;
+        height: 200px;
+        background-position: -80px -150px;
+    }
+    header h1{
+        font-size: 35px;
+    }
+}
+
 main{
-    width: 1500px;
+    max-width: 1500px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
 main img{
-    width: 100%;
+    max-width: 100%;
 }
 
 h1{
@@ -65,6 +78,16 @@ h2{
     COLOR: #181202;
 }
 
+@media (max-width: 768px) {
+    h1{
+        font-size: 30px;
+        margin: 30px 0 15px 0;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     FONT-SIZE: 20PX;
@@ -74,6 +97,13 @@ body{
 p, ul, ol{
     font-size: 20px;
     line-height: 30px;
+}
+
+@media (max-width: 768px) {
+    p, ul, ol{
+        font-size: 18px;
+        line-height: 27px;
+    }
 }
 
 ul{
@@ -93,6 +123,11 @@ ul{
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* LEFT TEXT */
 
@@ -106,6 +141,12 @@ ul{
     line-height: 30px;
 }
 
+@media (max-width: 768px) {
+    .experience-text p {
+        font-size: 19px;
+        line-height: 20px;
+    }
+}
 
 /* EXPERIENCE IMAGE */
 
@@ -129,6 +170,12 @@ ul{
     gap: 20px;
     align-items: start;
 
+}
+
+@media (max-width: 768px) {
+    .feedback-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .upwork-profile {
@@ -162,6 +209,13 @@ ul{
 .upwork-profile a:hover {
     color: #ffffff;
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .upwork-profile button{
+        width: 65%;
+        font-size: 15px;
+    }
 }
 
 /* FEEDBACK IMAGE */
@@ -256,6 +310,17 @@ ul{
     justify-self: center;
 }
 
+@media (max-width: 700px) {
+    .past-projects-grid button{
+        width: 110%;
+        font-size: 15px;
+        margin: 10px 10px;
+    }
+    .past-projects h1 {
+        margin: 10px 0 10px 0;
+    }
+}
+
 .past-projects-grid a {
     color: #ffffff;
     text-decoration: none;
@@ -285,6 +350,12 @@ ul{
     padding: 0px 0 60px 0;
 }
 
+@media (max-width: 768px) {
+    .contact-info {
+        padding: 0px 0 30px 0;
+    }
+}
+
 .contact-info a {
     color: #00547a;
     text-decoration: underline;
@@ -293,6 +364,10 @@ ul{
 /* ================================
    FOOTER
 ================================ */
+.footer {
+    max-width: 1500px;
+}
+
 .footer-content {
     background-color: #d49c00;
     color: #000000;
@@ -304,6 +379,7 @@ ul{
     color: #000000;
     text-decoration: underline;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .footer-content a:hover {
@@ -316,4 +392,13 @@ ul{
 
 .footer-content a:visited {
     color: #4a4c4d;
+}
+
+@media (max-width: 1000px) {
+    footer p {
+        font-size: 18px;
+    }
+    .footer-content a {
+        font-size: 18px;
+    }
 }
