@@ -123,7 +123,7 @@ ul{
     align-items: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
     .experience-grid {
         grid-template-columns: 1fr;
     }
@@ -394,7 +394,7 @@ ul{
     color: #4a4c4d;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
     footer p {
         font-size: 18px;
     }
