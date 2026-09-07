@@ -79,12 +79,22 @@ h2{
 }
 
 @media (max-width: 768px) {
-    h1{
+    h1 {
         font-size: 30px;
-        margin: 30px 0 15px 0;
+        margin: 10px 0 20px 0;
     }
-    h2{
+
+    h2 {
         font-size: 25px;
+    }
+
+    p, ul, ol {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    main > img {
+        margin-bottom: 20px;
     }
 }
 
@@ -123,13 +133,6 @@ ul{
     align-items: center;
 }
 
-@media (max-width: 1080px) {
-    .experience-grid {
-        grid-template-columns: 1fr;
-        gap: 10px 30px;
-    }
-}
-
 /* LEFT TEXT */
 
 .experience-text {
@@ -143,9 +146,21 @@ ul{
 }
 
 @media (max-width: 1080px) {
+
+    .experience-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
     .experience-text p {
         font-size: 19px;
         line-height: 20px;
+        margin: 0;
+    }
+
+    .experience-image {
+        margin-top: 5px;
+        margin-bottom: 20px;
     }
 }
 
