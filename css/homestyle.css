@@ -224,7 +224,7 @@ ul{
 
 .upwork-profile a:hover {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -350,7 +350,7 @@ ul{
 
 .past-projects-grid a:hover {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* two column layout for past projects */
@@ -432,7 +432,7 @@ ul{
 
 .contact-info button:hover {
     background-color: #a14100;
-    text-decoration: none;
+    text-decoration: underline;
     color: #ffffff;
 }
 
