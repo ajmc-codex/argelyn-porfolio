@@ -374,7 +374,7 @@ ul{
 
 .contact-info a {
     color: #00547a;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* ================================
@@ -430,18 +430,13 @@ ul{
     transition: background-color 0.5s ease;
 }
 
-.contact-info a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 .contact-info button:hover {
     background-color: #a14100;
     text-decoration: none;
     color: #ffffff;
 }
 
-.contact-info a:hover {
+.contact-info button a {
     color: #ffffff;
     text-decoration: none;
 }

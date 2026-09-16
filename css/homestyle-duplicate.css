@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body{
-    background-color: #fbffed;
+    background-color: #420707;
 }
 
 html, body{
@@ -11,7 +11,7 @@ html, body{
 
 header{
     text-align: center;
-    background-color: #181202;
+    background-color: #745514;
     padding: 20px;
 }
 
