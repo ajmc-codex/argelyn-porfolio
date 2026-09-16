@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body{
-    background-color: #fbffed;
+    background-color: #00472c;
 }
 
 html, body{
@@ -11,14 +11,14 @@ html, body{
 
 header{
     text-align: center;
-    background-color: #181202;
+    background-color: #000000;
     padding: 20px;
 }
 
 header .pfp{
     width: 300px;
     height: 300px;
-    border: 13px solid #fbffed;
+    border: 13px solid #003621;
     border-radius: 50%;
     background-image: url(./../img/argelyn.png);
     background-repeat: no-repeat;
@@ -55,6 +55,14 @@ main{
     margin: 0 auto;
 }
 
+main p {
+    color: #ffffff;
+}
+
+.skills-expertise-grid ul{
+    color: #ffffff;
+}
+
 main img{
     max-width: 100%;
 }
@@ -66,7 +74,7 @@ h1{
     TEXT-ALIGN: center;
     FONT-SIZE: 40PX;
     margin: 50px 0 25px 0;
-    COLOR: #a14100;
+    COLOR: #ff5900;
 }
 
 h2{
@@ -75,7 +83,7 @@ h2{
     font-style: normal;
     FONT-SIZE: 30PX;
     MARGIN: 5PX 0 20PX 0;
-    COLOR: #181202;
+    COLOR: #95df00;
 }
 
 @media (max-width: 768px) {
@@ -202,7 +210,7 @@ ul{
 
 /* UPWORK PROFILE BUTTON */
 .upwork-profile button {
-    background-color: #048197;
+    background-color: #108a00;
     border-radius: 20px;
     padding: 15px 0px 15px 0px;
     margin: 0 auto;
@@ -213,11 +221,16 @@ ul{
 }
 
 .upwork-profile button:hover {
-    background-color: #108a00;
+    background-color: #a14100;
     color: #ffffff;
 }
 
 .upwork-profile a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.upwork-profile p {
     color: #ffffff;
     text-decoration: none;
 }
@@ -315,7 +328,7 @@ ul{
 
 /* BUTTON STYLING */
 .past-projects-grid button {
-    background-color: #048197;
+    background-color: #108a00;
     border-radius: 20px;
     padding: 15px 0px 15px 0px;
     margin: 10px 0px 10px 10px;
@@ -350,7 +363,7 @@ ul{
 
 .past-projects-grid a:hover {
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* two column layout for past projects */
@@ -373,7 +386,12 @@ ul{
 }
 
 .contact-info a {
-    color: #00547a;
+    color: #a14100;
+    text-decoration: underline;
+}
+
+.contact-info p {
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -385,14 +403,14 @@ ul{
 }
 
 .footer-content {
-    background-color: #d49c00;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 30px 0 30px 0;
 }
 
 .footer-content a {
-    color: #000000;
+    color: #108a00;
     text-decoration: underline;
     font-weight: bold;
     font-size: 20px;
@@ -416,35 +434,5 @@ ul{
     }
     .footer-content a {
         font-size: 18px;
-    }
-}
-
-.contact-info button {
-    background-color: #048197;
-    border-radius: 20px;
-    padding: 15px 0px 15px 0px;
-    margin: 10px 0px 10px 10px;
-    width: 25%;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-
-.contact-info button:hover {
-    background-color: #a14100;
-    text-decoration: underline;
-    color: #ffffff;
-}
-
-.contact-info button a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-@media (max-width: 700px) {
-    .contact-info button{
-        width: 50%;
-        font-size: 15px;
-        margin: 10px 10px;
     }
 }
