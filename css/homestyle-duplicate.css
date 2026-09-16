@@ -224,7 +224,7 @@ ul{
 
 .upwork-profile a:hover {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -416,40 +416,5 @@ ul{
     }
     .footer-content a {
         font-size: 18px;
-    }
-}
-
-.contact-info button {
-    background-color: #048197;
-    border-radius: 20px;
-    padding: 15px 0px 15px 0px;
-    margin: 10px 0px 10px 10px;
-    width: 25%;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-
-.contact-info a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.contact-info button:hover {
-    background-color: #a14100;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.contact-info a:hover {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-@media (max-width: 700px) {
-    .contact-info button{
-        width: 50%;
-        font-size: 15px;
-        margin: 10px 10px;
     }
 }
